@@ -16,5 +16,6 @@ model Url  {
   id Int @id @default(autoincrement())
   shortId  String   @unique
   originalUrl String
+  
   createdAt DateTime @default(now())
 }
